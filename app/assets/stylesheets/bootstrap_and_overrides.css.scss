@@ -1,0 +1,23 @@
+@import "bootstrap";
+body { padding-top: 60px; }
+
+#refresh{
+  position: float;
+  height:5px;
+  font-size: 6.5px;
+}
+
+.ui-btn-text  {
+  font-size: 10.5px;
+}
+
+h2 {
+  font-family: Euphemia;
+  font-size: 20pt;
+  text-align:center;
+  font-weight:bold;
+  color: navy;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
+@import "bootstrap-responsive";

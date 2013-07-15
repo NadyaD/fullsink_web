@@ -1,0 +1,33 @@
+
+.userimage {
+	height: 50px;
+	width: 50px;
+}
+
+input[type=radio] {
+	height:15px;
+	width:15px
+}
+
+
+.songtitle {
+	color:#666;
+	font-size:80%;
+}
+
+.albumartist {
+	color:#666;
+	font-size:75%;
+}
+
+.butactive {
+	color:#21B6ED;
+}
+
+#logo_image {
+	display: block;
+  text-align: center;
+  margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
