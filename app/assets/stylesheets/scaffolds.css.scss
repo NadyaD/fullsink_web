@@ -1,20 +1,30 @@
 body {
   height:100%;
-  background-color: #fff;
+  background-color: #FFF;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
-#iframe {
-  position: absolute; 
-  border:solid thick #000; 
-  border-bottom-width:50px; 
-  background-color:#111; 
-  padding:18px; 
-  border-radius: 40px; 
-  overflow: hidden;
+#download{
+	background-image:url('fs_DownloadButton.gif');
+}
+
+.line1{
+	font-size: 20px;
+}
+
+.line2{
+	font-size: 16px;
+}
+
+.line3{
+	font-size: 24px;
+}
+
+.line4{
+	font-size: 12px;
 }
 
 p, ol, ul, td {

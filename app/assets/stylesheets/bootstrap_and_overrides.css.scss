@@ -1,11 +1,32 @@
 @import "bootstrap";
-body { padding-top: 60px; }
+body { 
+/*background-image:url('fs_Background.gif'); 
+	background-repeat:no-repeat;
+	background-size:100% 100%; */
+	padding-top: 60px; 
+}
 
 #refresh{
   position: float;
   height:5px;
   font-size: 6.5px;
 }
+
+#div_iframe {
+	position: absolute; 
+	border:solid thick #000; 
+	border-bottom-width:50px; 
+	background-color:#111; 
+	padding:18px; 
+	border-radius: 40px; 
+	overflow: hidden;
+}
+#iframe {
+	width:300px; 
+	height:550px !important;
+	overflow:hidden; 
+	scrolling:no;
+	}
 
 .ui-btn-text  {
   font-size: 10.5px;
@@ -20,4 +41,5 @@ h2 {
   padding-top: 12px;
   padding-bottom: 30px;
 }
+
 @import "bootstrap-responsive";

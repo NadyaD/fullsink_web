@@ -33,15 +33,7 @@
 			</div>
 		</div>
 
-			<div class="row fluid">
-					<% if admin_signed_in? then %>
-					<%= content_tag :li, link_to("Server Management", resolvers_path,	:id=>"mn_admin") %>
-					<%= content_tag :li, link_to("Home", client_index_path,	:id=>"mn_admin") %>
-					<%= content_tag :li, link_to("Sign Out", destroy_admin_session_path,
-					method: :delete,	:id=>"mn_signout") %>
-					<% end%>
-					<%= yield %>
-				</div>
+			<%= yield %>
 
 
 	</body>
