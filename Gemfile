@@ -5,7 +5,9 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :production do
+  gem 'pg'
+end
 
 gem "bcrypt-ruby", '~> 3.0.0'
 
@@ -21,13 +23,13 @@ end
 
 
 group :development do
-gem 'heroku'
-	# gem 'rspec-rails'
-    # gem 'autotest'
-   #gem 'autotest-fsevent'
-   #gem 'autotest-growl'
+   gem 'sqlite3'
+	 gem 'heroku'
+#	 gem 'rspec-rails'
+#   gem 'autotest'
+#   gem 'autotest-fsevent'
+#   gem 'autotest-growl'
    gem 'letter_opener', "~> 1.0.0"    # This is here for mail delivery to browser for testing
-  
 end
 
 gem 'jquery-rails'
