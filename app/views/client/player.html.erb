@@ -6,7 +6,7 @@
 
 <div data-role="page" id="fullhead" data-theme="b">
 	
-	<div data-role="header" data-position="fixed" data-theme="a">
+	<div id="header" data-role="header" data-position="fixed" data-theme="a">
 		<img id="logo_image" src="img/fs_logo_comb.png" />
 	</div>
 
@@ -69,7 +69,10 @@
 
 		console.log("Document ready")
 		initCommon();
-		initOnLine()
-
+		initOnLine();
+		//removes the header if we are on a desktop, the header will be on the website already
+		if(!Modernizr.mq("(min-device-width: 320px) and (max-device-width: 728px)")){
+			$("#header").remove();
+		}
 	})
 	</script

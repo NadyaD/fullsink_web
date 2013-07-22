@@ -21,7 +21,7 @@ end
 
 
 group :development do
-	# gem 'heroku'
+gem 'heroku'
 	# gem 'rspec-rails'
     # gem 'autotest'
    #gem 'autotest-fsevent'
